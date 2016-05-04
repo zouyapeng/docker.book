@@ -7,5 +7,5 @@
    * [Docker仓库](dockercang_ku.md)
 * [Docker安装](dockeran_zhuang.md)
    * [Ubuntu 16.04安装](ubuntu_1604an_zhuang.md)
-   * CentOS 7安装
+   * [CentOS 7安装](centos_7an_zhuang.md)
 
