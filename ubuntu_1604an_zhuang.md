@@ -6,4 +6,7 @@ Additionally, your kernel must be 3.10 at minimum.
 
 The latest 3.10 minor version or a newer maintained version are also acceptable.
 ### 跟新源
-
+```bash
+$ sudo apt-get update
+ $ sudo apt-get install apt-transport-https ca-certificates
+```
