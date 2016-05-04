@@ -8,5 +8,5 @@ The latest 3.10 minor version or a newer maintained version are also acceptable.
 ### 跟新源
 ```bash
 $ sudo apt-get update
- $ sudo apt-get install apt-transport-https ca-certificates
+$ sudo apt-get install apt-transport-https ca-certificates
 ```
