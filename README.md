@@ -1,3 +1,3 @@
-# My Awesome Book
+# 我的Docker学习笔记
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本书只是记录我Docker的学习记录，文中内容大多来至于[Docker——从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)一书
