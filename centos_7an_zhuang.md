@@ -6,6 +6,7 @@
 
 ## 安装
 - 跟新
+- 
 - 安装docker
 ```bash
 $ sudo apt-get install docker-engine
