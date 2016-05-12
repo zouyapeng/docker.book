@@ -17,7 +17,10 @@ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58
 ```
 
 ### 检查docker.list
+没有则创建
 ```bash
 sudo vim /etc/apt/sources.list.d/docker.list 
 ```
+
+
 
