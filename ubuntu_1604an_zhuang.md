@@ -21,6 +21,10 @@ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58
 ```bash
 sudo vim /etc/apt/sources.list.d/docker.list 
 ```
+修改内容：
+```bash
+deb https://apt.dockerproject.org/repo ubuntu-xenial main
+```
 
 
 
