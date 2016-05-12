@@ -38,6 +38,7 @@ $ sudo apt-get install docker-engine
 
 - 启动服务
 ```bash
+$ sudo service docker start
 ```
 
 
