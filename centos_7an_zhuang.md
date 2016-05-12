@@ -6,7 +6,13 @@
 
 ## 安装
 - 跟新
+```bash
+```
+
 - 添加源
+```bash
+```
+
 - 安装docker
 ```bash
 $ sudo apt-get install docker-engine
