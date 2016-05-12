@@ -24,7 +24,7 @@ EOF
 
 - 安装docker
 ```bash
-$ sudo apt-get install docker-engine
+$ sudo yum install docker-engine
 ```
 
 - 启动服务
