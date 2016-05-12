@@ -1,10 +1,8 @@
 # Ubuntu 16.04安装
 ## 准备
-Docker requires a 64-bit installation regardless of your Ubuntu version. 
+- Docker需要64位的操作系统
+- Linux kernel 版本不得低于3.10
 
-Additionally, your kernel must be 3.10 at minimum. 
-
-The latest 3.10 minor version or a newer maintained version are also acceptable.
 ### 跟新源
 ```bash
 $ sudo apt-get update
