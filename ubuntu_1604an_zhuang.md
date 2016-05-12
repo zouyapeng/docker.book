@@ -31,7 +31,7 @@ $ sudo apt-get update
 ```
 
 ## 安装
-
+- $ sudo apt-get install docker-engine
 
 
 
