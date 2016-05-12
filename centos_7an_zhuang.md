@@ -6,5 +6,17 @@
 
 ## 安装
 - 跟新
-- 
+- 安装docker
+```bash
+$ sudo apt-get install docker-engine
+```
+
+- 启动服务
+```bash
+$ sudo service docker start
+```
+
+- 测试
+```bash
+$ sudo docker run hello-world
 
