@@ -1,6 +1,4 @@
 # Ubuntu 14.04安装
-
-# Ubuntu 16.04安装
 ## 准备
 - Docker需要64位的操作系统
 - Linux kernel 版本不得低于3.10
