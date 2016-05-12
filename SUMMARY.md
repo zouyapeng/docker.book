@@ -9,9 +9,9 @@
    * [Ubuntu 16.04安装](ubuntu_1604an_zhuang.md)
    * [CentOS 7安装](centos_7an_zhuang.md)
 * [镜像](jing_xiang.md)
-  * [镜像获取] 
+  * [镜像获取]()
+  * [镜像列出]() 
 * 容器
 * 仓库
 * 数据管理
 * 网络
-
