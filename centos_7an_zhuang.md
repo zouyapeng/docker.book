@@ -7,7 +7,7 @@
 ## 安装
 - 更新
 ```bash
-
+$ sudo yum update
 ```
 
 - 添加源
