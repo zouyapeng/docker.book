@@ -15,5 +15,4 @@ REPOSITORY | TAG | IMAGE ID | CREATED | SIZE
 - | - | - | - | - 
 来自于哪个仓库 | 标记 | 镜像唯一ID | 创建时间 | 镜像大小 
 
-其中镜像的	 	ID	 	唯一标识了镜像,注意到	 	ubuntu:14.04	 	和	 	ubuntu:trusty	
-具有相同的镜像	 	ID	 ,说明它们实际上是同一镜像。
+其中镜像的ID唯一标识了镜像,注意到 ubuntu:14.04 和 ubuntu:trusty 具有相同的镜像ID,说明它们实际上是同一镜像。
