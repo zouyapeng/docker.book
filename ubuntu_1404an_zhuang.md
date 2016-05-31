@@ -64,7 +64,7 @@ $ sudo vim /etc/apt/sources.list.d/docker.list
 ```
 修改内容：
 ```bash
-deb https://apt.dockerproject.org/repo ubuntu-xenial main
+
 ```
 
 ### 跟新docker源
