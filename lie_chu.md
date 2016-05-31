@@ -12,7 +12,7 @@ zouyapeng/dokuwiki   latest              c9bf1b678f65        2 weeks ago        
 在列出信息中,可以看到几个字段信息
 REPOSITORY | TAG | IMAGE ID | CREATED | SIZE
 - | - | - | - | - 
- | - | - | - | - 
+来自于哪个仓库 | 标记 | 镜像唯一ID | 创建时间 | 镜像大小 
 
 
 
