@@ -10,7 +10,7 @@ zouyapeng/dokuwiki   latest              c9bf1b678f65        2 weeks ago        
 ```
 
 在列出信息中,可以看到几个字段信息
-REPOSITORY | TAG | IMAGE ID
+REPOSITORY | TAG | IMAGE ID | CREATED
 - | - | -
 gitbook | 1 | nodejs
 wordpress | 2 | php
@@ -18,7 +18,7 @@ wordpress | 2 | php
 
 
 
-CREATED
+
 SIZE
 来自于哪个仓库,比如	ubuntu
 镜像的标记,比如	14.04
