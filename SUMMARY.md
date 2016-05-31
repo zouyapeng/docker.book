@@ -11,7 +11,7 @@
    * [CentOS 7安装](centos_7an_zhuang.md)
 * [镜像](jing_xiang.md)
    * [获取](huo_qu.md)
-   * 列出
+   * [列出](lie_chu.md)
    * 创建
    * 导出导入
    * 移除
