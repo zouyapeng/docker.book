@@ -10,6 +10,11 @@ zouyapeng/dokuwiki   latest              c9bf1b678f65        2 weeks ago        
 ```
 
 在列出信息中,可以看到几个字段信息
+name | id | code
+- | - | -
+gitbook | 1 | nodejs
+wordpress | 2 | php
+
 REPOSITORY
 TAG
 IMAGE ID
