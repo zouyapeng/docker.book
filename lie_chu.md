@@ -13,15 +13,3 @@ zouyapeng/dokuwiki   latest              c9bf1b678f65        2 weeks ago        
 REPOSITORY | TAG | IMAGE ID | CREATED | SIZE
 - | - | - | - | - 
 来自于哪个仓库 | 标记 | 镜像唯一ID | 创建时间 | 镜像大小 
-
-
-
-
-
-
-
-来自于哪个仓库,比如	ubuntu
-镜像的标记,比如	14.04
-它的	 	ID	 	号(唯一)
-创建时间
-镜像大小
