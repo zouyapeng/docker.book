@@ -23,6 +23,13 @@ DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 
 
 ```dockerfile
+FROM 
 
+RUN apt-get update && apt-get install -y \
+  bzr \
+  cvs \
+  git \
+  mercurial \
+  subversion
 ```
 
