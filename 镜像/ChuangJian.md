@@ -3,4 +3,6 @@
 ```bash
 $ sudo debootstrap trusty trusty > /dev/null
 $ sudo tar -C trusty -c . | docker import - trusty
+
+$ docker run raring cat /etc/lsb-release
 ```
