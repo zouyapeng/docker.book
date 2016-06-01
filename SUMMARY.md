@@ -2,7 +2,7 @@
 
 * [介绍](README.md)
 * [Docker基本概念](Docker基本概念/README.md)
-   * [Docker镜像](Docker基本概念/dockerjing_xiang.md)
+   * [Docker镜像](Docker基本概念/JingXiang.md)
    * [Docker容器](Docker基本概念/dockerrong_qi.md)
    * [Docker仓库](Docker基本概念/dockercang_ku.md)
 * [Docker安装](Docker安装/README.md)
