@@ -4,6 +4,6 @@
 $ sudo [debootstrap](https://wiki.debian.org/Debootstrap) trusty trusty > /dev/null
 $ sudo tar -C trusty -c . | docker import - trusty
 
-$ docker run raring cat /etc/lsb-release
+$ docker run trusty cat /etc/lsb-release
 ```
 
