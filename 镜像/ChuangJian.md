@@ -27,7 +27,7 @@ $ mkdir trusty
 $ touch Dockerfile
 $ touch run.sh
 ```
-run.sh
+run.sh:
 ```bash
 #!/bin/bash
 
@@ -41,7 +41,7 @@ else
     echo '----'
 fi
 ```
-
+Dockerfile:
 ```Dockerfile
 FROM trusty:latest
 
