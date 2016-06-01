@@ -47,6 +47,6 @@ VOLUME ["/etc/custom-config", "/opt/user"]
 
 EXPOSE 80 443 162/udp 22 10080
 
-
+ENTRYPOINT ["/run.sh"]
 ```
 
