@@ -9,7 +9,7 @@
    * [Ubuntu 16.04安装](Docker安装/ubuntu_16_04.md)
    * [Ubuntu 14.04安装](Docker安装/ubuntu_14_04.md)
    * [CentOS 7安装](Docker安装/centos_7.md)
-* [镜像](jing_xiang.md)
+* [镜像](镜像/README.md)
    * [获取](huo_qu.md)
    * [列出](lie_chu.md)
    * 创建
