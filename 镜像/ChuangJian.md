@@ -61,7 +61,7 @@ COPY run.sh /
 RUN chmod +x /run.sh
 
 COPY . /tmp/
-ADD http://example.com/big.tar.xz /
+# ADD http://example.com/big.tar.xz /
 
 VOLUME ["/etc/custom-config", "/opt/user"]
 
