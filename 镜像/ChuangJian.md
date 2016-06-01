@@ -1,4 +1,5 @@
-# 创建Ubuntu基础镜像
+# 创建
+## 创建Ubuntu基础镜像
 ```bash
 $ sudo [debootstrap](https://wiki.debian.org/Debootstrap) trusty trusty > /dev/null
 $ sudo tar -C trusty -c . | docker import - trusty
@@ -9,4 +10,6 @@ DISTRIB_RELEASE=14.04
 DISTRIB_CODENAME=trusty
 DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 ```
+
+## 使用Dockerfile创建镜像
 
