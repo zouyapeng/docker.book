@@ -28,7 +28,7 @@ $ touch Dockerfile
 $ touch run.sh
 ```
 ```bash
-#
+# run.sh
 
 ```
 
