@@ -35,7 +35,11 @@ ENV \
 RUN apt-get update && apt-get install -y \
   apache2 \
   php5
+  
+COPY requirements.txt /tmp/
+RUN pip install --requirement /tmp/requirements.txt
+COPY . /tmp/
 
-ADD 
+ADD /
 ```
 
