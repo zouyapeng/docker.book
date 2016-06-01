@@ -31,7 +31,7 @@ RUN apt-get update && apt-get install -y \
   apache2 \
   php5
   
-ENV TEST_ENV 'test'
+ENV TEST_ENV test
 ADD  
 ```
 
