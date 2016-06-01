@@ -27,14 +27,16 @@ FROM trusty:latest
 
 MAINTAINER Zouyapeng<zyp19901009@163.com>
 
+ENV \
+  TEST_ENV1=123456 \
+  TEST_ENV2=true \
+  TEST_ENV3=/var/log
+
 RUN apt-get update && apt-get install -y \
   apache2 \
   php5
   
-ENV \
-  TEST_ENV1=123456 \
-  TEST_ENV2=true \
-  TEST_ENV3=/var/log \
+
 
 ADD  
 ```
