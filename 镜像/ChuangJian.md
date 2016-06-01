@@ -29,7 +29,6 @@ $ touch run.sh
 ```
 run.sh
 ```bash
-
 #!/bin/bash
 
 if [ $# == 1 ];then
