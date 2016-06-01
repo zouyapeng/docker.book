@@ -24,7 +24,6 @@ DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 ```bash
 $ mkdir trusty
 $ touch Dockerfile
-$ vim run.sh
 ```
 
 ```Dockerfile
