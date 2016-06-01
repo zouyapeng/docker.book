@@ -40,6 +40,8 @@ COPY requirements.txt /tmp/
 COPY . /tmp/
 ADD http://example.com/big.tar.xz /
 
+VOLUME ["/etc/custom-config", ""]
 
+EXPOSE 80 162/udp 10051 10052
 ```
 
