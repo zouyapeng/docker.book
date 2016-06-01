@@ -31,7 +31,11 @@ RUN apt-get update && apt-get install -y \
   apache2 \
   php5
   
-ENV TEST_ENV test\
+ENV \
+  TEST_ENV1=123456 \
+  TEST_ENV1=true \
+  TEST_ENV1=true \
+
 ADD  
 ```
 
