@@ -13,9 +13,9 @@ DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 
 在Docker GitHub仓库里还有创建其他基础镜像的脚本的例子:
 
-- BusyBox
-- CentOS / Scientific Linux CERN (SLC) on Debian/Ubuntu or on CentOS/RHEL/SLC/etc.
-- Debian / Ubuntu
+- [BusyBox](https://github.com/docker/docker/blob/master/contrib/mkimage-busybox.sh)
+- CentOS / Scientific Linux CERN (SLC) on [Debian/Ubuntu](https://github.com/docker/docker/blob/master/contrib/mkimage-rinse.sh) or on [CentOS/RHEL/SLC/etc](https://github.com/docker/docker/blob/master/contrib/mkimage-yum.sh).
+- [Debian / Ubuntu](https://github.com/docker/docker/blob/master/contrib/mkimage-debootstrap.sh)
 
 
 
