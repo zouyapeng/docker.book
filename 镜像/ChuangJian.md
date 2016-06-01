@@ -33,8 +33,8 @@ RUN apt-get update && apt-get install -y \
   
 ENV \
   TEST_ENV1=123456 \
-  TEST_ENV1=true \
-  TEST_ENV1=true \
+  TEST_ENV2=true \
+  TEST_ENV3=/var/log \
 
 ADD  
 ```
