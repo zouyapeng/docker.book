@@ -27,8 +27,9 @@ $ mkdir trusty
 $ touch Dockerfile
 $ touch run.sh
 ```
+run.sh
 ```bash
-# run.sh
+
 #!/bin/bash
 
 if [ $# == 1 ];then
