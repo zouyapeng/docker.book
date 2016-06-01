@@ -25,7 +25,7 @@
 * [仓库](仓库/README.md)
    * [Docker hub](仓库/DockerHub.md)
    * [私有仓库](仓库/SiYouCangKu.md)
-   * 仓库配置
+   * [仓库配置](仓库/CangKuPeiZhi.md)
 * [数据管理](数据管理/README.md)
    * 数据卷
    * 数据卷容器
