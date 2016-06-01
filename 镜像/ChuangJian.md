@@ -25,6 +25,8 @@ DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 ```dockerfile
 FROM trusty:latest
 
+MAINTAINER Zouyapeng<zyp19901009@163.com>
+
 RUN apt-get update && apt-get install -y \
   bzr \
   cvs \
