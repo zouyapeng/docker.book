@@ -11,7 +11,12 @@ DISTRIB_CODENAME=trusty
 DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 ```
 
-There are more example scripts for creating base images in the Docker GitHub Repo:
+在Docker GitHub仓库里还有创建其他基础镜像的脚本的例子:
+
+- BusyBox
+- CentOS / Scientific Linux CERN (SLC) on Debian/Ubuntu or on CentOS/RHEL/SLC/etc.
+- Debian / Ubuntu
+
 
 
 ## 使用Dockerfile创建镜像
