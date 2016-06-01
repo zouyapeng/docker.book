@@ -10,7 +10,7 @@
    * [Ubuntu 14.04安装](Docker安装/ubuntu_14_04.md)
    * [CentOS 7安装](Docker安装/centos_7.md)
 * [镜像](镜像/README.md)
-   * [获取](huo_qu.md)
+   * [获取](镜像/HuoQu.md)
    * [列出](lie_chu.md)
    * 创建
    * 导出导入
