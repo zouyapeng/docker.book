@@ -20,7 +20,7 @@ DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 
 
 ## 使用Dockerfile创建镜像
-```
+```dockerfile
 FROM centos:centos7
 MAINTAINER Jan Garaj info@monitoringartist.com
 
