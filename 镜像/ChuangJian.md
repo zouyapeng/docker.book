@@ -38,7 +38,7 @@ RUN apt-get update && apt-get install -y \
   
 COPY run.sh /
 
-
+RUN chmod 
 
 COPY . /tmp/
 ADD http://example.com/big.tar.xz /
