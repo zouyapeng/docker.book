@@ -72,6 +72,6 @@ CMD ["param1","param2","param3"]
 ```
 
 ```bash
-sudo	docker	build	-t="ouruser/sinatra:v2"	.
+docker build -t="ouruser/sinatra:v2"	.
 ```
 
