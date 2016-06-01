@@ -20,7 +20,7 @@
    * [启动](容器/QiDong.md)
    * [终止](容器/ZhongZhi.md)
    * [导入导出](容器/DaoRuDaoChu.md)
-   * 进入
+   * [进入](容器/JinRu.md)
    * 删除
 * [仓库](仓库/README.md)
    * Docker hub
