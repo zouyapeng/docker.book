@@ -11,7 +11,7 @@
    * [CentOS 7安装](Docker安装/centos_7.md)
 * [镜像](镜像/README.md)
    * [获取](镜像/HuoQu.md)
-   * [列出](lie_chu.md)
+   * [列出](镜像/LieChu.md)
    * 创建
    * 导出导入
    * 移除
