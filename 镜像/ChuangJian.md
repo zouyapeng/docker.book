@@ -23,7 +23,7 @@ DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 
 
 ```dockerfile
-FROM 
+FROM trusty:
 
 RUN apt-get update && apt-get install -y \
   bzr \
