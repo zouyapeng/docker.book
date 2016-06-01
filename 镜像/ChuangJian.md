@@ -22,7 +22,7 @@ DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 ## 使用Dockerfile创建镜像
 
 ```bash
-mkdir 
+mkdir trusty
 ```
 
 ```Dockerfile
