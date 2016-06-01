@@ -11,5 +11,8 @@ DISTRIB_CODENAME=trusty
 DISTRIB_DESCRIPTION="Ubuntu 14.04 LTS"
 ```
 
+There are more example scripts for creating base images in the Docker GitHub Repo:
+
+
 ## 使用Dockerfile创建镜像
 
