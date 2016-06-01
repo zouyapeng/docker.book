@@ -72,6 +72,6 @@ CMD ["param1","param2","param3"]
 ```
 
 ```bash
-docker build -t="ouruser/sinatra:v2"	.
+docker build -t="trusty:custom"	.
 ```
 
