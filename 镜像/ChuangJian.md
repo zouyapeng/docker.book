@@ -36,7 +36,7 @@ RUN apt-get update && apt-get install -y \
   apache2 \
   php5
   
-COPY run.sh /tmp/
+COPY run.sh /
 COPY . /tmp/
 ADD http://example.com/big.tar.xz /
 
