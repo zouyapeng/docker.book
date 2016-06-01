@@ -7,7 +7,7 @@
    * [Docker仓库](Docker基本概念/dockercang_ku.md)
 * [Docker安装](Docker安装/README.md)
    * [Ubuntu 16.04安装](Docker安装/ubuntu_16_04.md)
-   * [Ubuntu 14.04安装](ubuntu_1404an_zhuang.md)
+   * [Ubuntu 14.04安装](Docker安装/ubuntu_14_04.md)
    * [CentOS 7安装](centos_7an_zhuang.md)
 * [镜像](jing_xiang.md)
    * [获取](huo_qu.md)
