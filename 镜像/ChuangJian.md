@@ -71,3 +71,7 @@ ENTRYPOINT ["/run.sh"]
 CMD ["param1","param2","param3"]
 ```
 
+```bash
+sudo	docker	build	-t="ouruser/sinatra:v2"	.
+```
+
