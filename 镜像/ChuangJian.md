@@ -28,9 +28,9 @@ FROM trusty:latest
 MAINTAINER Zouyapeng<zyp19901009@163.com>
 
 RUN apt-get update && apt-get install -y \
-  bzr \
-  cvs \
-  git \
+  apache2 \
+  php5 \
+  mysql \
   mercurial \
   subversion
 ```
