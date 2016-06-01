@@ -72,6 +72,61 @@ CMD ["param1","param2","param3"]
 ```
 
 ```bash
-docker build -t="trusty:custom"	.
+$ docker build -t="trusty:custom" .
+Sending build context to Docker daemon 3.072 kB
+Step 1 : FROM trusty:latest
+ ---> 2c2a1ef844fa
+Step 2 : MAINTAINER Zouyapeng<zyp19901009@163.com>
+ ---> Using cache
+ ---> 6de654f69aa5
+Step 3 : ENV TEST_ENV1 123456 TEST_ENV2 true TEST_ENV3 /var/log
+ ---> Using cache
+ ---> 530a80f32021
+Step 4 : RUN apt-get update && apt-get install -y   apache2   php5
+ ---> Using cache
+ ---> 567c91ceeb2b
+Step 5 : COPY run.sh /
+ ---> Using cache
+ ---> 064dbb556a6f
+Step 6 : RUN chmod +x /run.sh
+ ---> Using cache
+ ---> 3c0398aaec8c
+Step 7 : VOLUME /etc/custom-config /opt/user
+ ---> Running in 789fed374aed
+ ---> f900bb13e8fd
+Removing intermediate container 789fed374aed
+Step 8 : EXPOSE 80 443 162/udp 22 10080
+ ---> Running in e60d416f815c
+ ---> 0ba17f4d19b1
+Removing intermediate container e60d416f815c
+Step 9 : ENTRYPOINT /run.sh
+ ---> Running in 32c7d0383e7b
+ ---> b304a2716df7
+Removing intermediate container 32c7d0383e7b
+Step 10 : CMD param1 param2 param3
+ ---> Running in b43e771e38e7
+ ---> 2e1f283c5aa9
+Removing intermediate container b43e771e38e7
+Successfully built 2e1f283c5aa9
+```
+
+```bash
+$ docker images 
+REPOSITORY           TAG                 IMAGE ID            CREATED             SIZE
+trusty               custom              2e1f283c5aa9        51 seconds ago      291 MB
+trusty               latest              2c2a1ef844fa        About an hour ago   232.7 MB
+```
+
+```bash
+$ docker run -i trusty:custom 1111
+1111
+$ docker run -i trusty:custom 1111 2222
+2222
+$ docker run -i trusty:custom 1111 2222 3333
+3333
+$ docker run -i trusty:custom 1111 2222 3333 4444
+----
+$ docker run -i trusty:custom
+param3
 ```
 
