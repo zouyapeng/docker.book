@@ -1,0 +1,11 @@
+{
+  "title": "我的docker学习笔记",
+  "description": "",
+  "language": "zh",
+  "plugins": [
+    "prism",
+    "-highlight",
+    "splitter",
+    "book-summary-scroll-position-saver"
+  ]
+}
