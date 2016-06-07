@@ -18,5 +18,5 @@ hello world
 docker attach会进入进入容器并继续执行CMD,类似于linux的fg命令
 
 ```bash
-$ docker exec  
+$ docker exec -it bf7d5922f9fe /bin/bash
 ```
