@@ -16,6 +16,7 @@ $ sudo pip install docker-registry
 
 - Centos
 
+
 ### 源码安装
 
 ## 上传
