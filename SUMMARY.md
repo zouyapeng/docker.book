@@ -22,7 +22,6 @@
    * [进入](Container/JinRu.md)
    * [删除](Container/ShanChu.md)
 * [仓库](Repository/README.md)
-   * [Docker hub](Repository/DockerHub.md)
    * [私有仓库](Repository/SiYouCangKu.md)
    * [仓库配置](Repository/CangKuPeiZhi.md)
 * [数据管理](DataManagement/README.md)
