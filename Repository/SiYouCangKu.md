@@ -10,6 +10,8 @@ $ docker pull registry
 $ docker run -d -p 5000:5000 -v /opt/registry:/tmp/registry registry
 ```
 ### Packages安装
+- 
+
 ### 源码安装
 
 ## 上传
