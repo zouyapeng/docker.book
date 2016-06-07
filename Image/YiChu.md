@@ -5,5 +5,5 @@ $ docker rmi ubuntu:14.04
 ```
 ## 清理所有未打过标签的本地镜像
 ```bash
-
+$ sudo docker rmi $(docker images -q -f "dangling=true")
 ```
