@@ -1,4 +1,4 @@
-# 启动
+er# 启动
 当利用docker run 来创建容器时,Docker在后台运行的标准操作包括:
 
 - 检查本地是否存在指定的镜像,不存在就从公有仓库下载
@@ -35,5 +35,5 @@ $ docker run -d ubuntu:14.04 /bin/sh -c "while true; do echo hello world; sleep 
 f25d00c5b49b7601259e6f873148a924185e15921f626e12340dbfb05304354d
 
 # 使用docker logs 查看日志
-$ f25d00c5b49b
+$ docker logs -f dof25d00c5b49b
 ```
