@@ -16,6 +16,7 @@ $ sudo pip install docker-registry
 
 - Centos
 $ sudo yum install -y python-devel libevent-devel python-pip gcc xz-devel
+$ sudo python-pip install docker-registry
 
 ### 源码安装
 
