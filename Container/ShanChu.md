@@ -1,5 +1,5 @@
 # 删除
 ## 
 ```bash
-$sudo docker rm  trusting_newton
+$ docker rm  trusting_newton
 ```
