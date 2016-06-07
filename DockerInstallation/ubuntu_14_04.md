@@ -44,7 +44,7 @@ $ sudo service docker start
 $ sudo docker run hello-world
 ```
 
-## run with non-root
+## run without sudo
 - 添加当前用户到docker组
 ```bash
 $ sudo groupadd docker
