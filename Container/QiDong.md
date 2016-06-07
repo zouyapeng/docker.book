@@ -28,4 +28,4 @@ root@57064404d74b:/#
 docker start 57064404d74b
 ```
 
-## 
+## 后台(background)运行
