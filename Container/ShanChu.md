@@ -4,4 +4,4 @@
 $ docker rm [container id or name]
 ```
 
-## 删除
+## 删除退出状态容器
