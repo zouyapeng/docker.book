@@ -8,4 +8,6 @@ $ docker run hello-world
 ```bash
 $ docker run -it ubuntu:14.04 /bin/bash
 root@57064404d74b:/#
+
+# 其中 -it 
 ```
