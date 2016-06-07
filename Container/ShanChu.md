@@ -6,5 +6,5 @@ $ docker rm [container id or name]
 
 ## 删除退出状态容器
 ```bash
-docker rm $(docker ps -a -q)
+$ docker rm $(docker ps -a -q)
 ```
