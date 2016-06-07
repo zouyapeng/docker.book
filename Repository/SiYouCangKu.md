@@ -3,7 +3,7 @@
 ## 安装
 ### 容器安装
 ```bash
-$ sudo docker run -d -p 5000:5000 -v /opt/data/registry:/tmp/registry registry
+$ sudo docker run -d -p 5000:5000 -v /opt/registry:/tmp/registry registry
 ```
 ### Packages安装
 ### 源码安装
