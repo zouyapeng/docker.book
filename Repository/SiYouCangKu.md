@@ -11,7 +11,7 @@ $ docker run -d -p 5000:5000 -v /opt/registry:/tmp/registry registry
 ```
 ### Packages安装
 - Ubuntu
-
+$ sudo apt-get install -y build-essential python-dev libevent-dev python-pip liblzma-dev
 - Centos
 
 ### 源码安装
