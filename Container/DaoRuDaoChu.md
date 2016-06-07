@@ -7,7 +7,7 @@ $ sudo docker export [container id or name] > export.tar
 
 ## 导出
 ```bash
-cat export.tar | sudo docker import - export:v1.0
+$ cat export.tar | sudo docker import - export:v1.0
 
-$sudo docker import http://example.com/exampleimage.tgz example/imagerepo
+$ docker import http://example.com/exampleimage.tgz example/imagerepo
 ```
