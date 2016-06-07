@@ -47,7 +47,8 @@ $ sudo docker run hello-world
 ## run with non-root
 ```bash
 sudo groupadd docker
-
+sudo gpasswd -a ${USER} docker
+sudo service docker restart
 ```
 
 
