@@ -15,7 +15,7 @@ hello world
 ```
 
 ## docker exec
-
+docker attach会
 ```bash
 $ docker 
 ```
