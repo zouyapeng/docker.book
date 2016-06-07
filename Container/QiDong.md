@@ -35,4 +35,5 @@ $ docker run -d ubuntu:14.04 /bin/sh -c "while true; do echo hello world; sleep 
 f25d00c5b49b7601259e6f873148a924185e15921f626e12340dbfb05304354d
 
 # 使用docker logs 查看日志
+$ f25d00c5b49b
 ```
