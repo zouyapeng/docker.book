@@ -17,7 +17,7 @@ Status: Downloaded newer image for ubuntu:14.04
 ```
 该命令实际上相当于
 ```bash
-$ sudo docker pull docker.io/ubuntu:14.04
+$ docker pull docker.io/ubuntu:14.04
 ```
 即从官方仓库注册服务器获取镜像。
 
