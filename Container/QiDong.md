@@ -25,5 +25,5 @@ root@57064404d74b:/#
 
 ## 启动已终止容器
 ```bash
-docker start
+docker start 57064404d74b
 ```
