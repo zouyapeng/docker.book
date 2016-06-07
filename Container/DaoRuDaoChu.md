@@ -2,7 +2,7 @@
 
 ## 导入
 ```bash
-$ sudo docker export [] > ubuntu.tar
+$ sudo docker export [container id or name] > ubuntu.tar
 ```
 
 ## 导出
