@@ -15,7 +15,7 @@ hello world
 ```
 
 ## docker exec
-docker attach会进入进入容器并继续执行CMD
+docker attach会进入进入容器并继续执行CMD,类似于linux的fg
 ```bash
 $ docker exec 
 ```
