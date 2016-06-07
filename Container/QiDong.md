@@ -36,4 +36,13 @@ f25d00c5b49b7601259e6f873148a924185e15921f626e12340dbfb05304354d
 
 # 使用docker logs 查看日志
 $ docker logs -f dof25d00c5b49b
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+
 ```
