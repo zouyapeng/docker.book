@@ -45,12 +45,13 @@ $ sudo docker run hello-world
 ```
 
 ## run with non-root
+- 添加当前用户到docker组
 ```bash
-sudo groupadd docker
-sudo gpasswd -a ${USER} docker
-sudo service docker restart
+$ sudo groupadd docker
+$ sudo gpasswd -a ${USER} docker
+$ sudo service docker restart
 ```
-注销当前用户，重新登陆
+- 注销当前用户，重新登陆
 
 
 
