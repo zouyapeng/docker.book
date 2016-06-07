@@ -7,6 +7,6 @@ $ docker save -o ubuntu_14.04.tar ubuntu:14.04
 
 ## 导入
 ```bash
-$ sudo docker load --input ubuntu_14.04.tar
+$ docker load --input ubuntu_14.04.tar
 $ sudo docker load < ubuntu_14.04.tar
 ```
