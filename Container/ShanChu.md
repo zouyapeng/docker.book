@@ -1,5 +1,5 @@
 # 删除
 ## 
 ```bash
-$ docker rm  [container id or name]
+$ docker rm [container id or name]
 ```
