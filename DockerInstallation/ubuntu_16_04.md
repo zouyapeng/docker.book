@@ -44,4 +44,14 @@ $ sudo service docker start
 $ sudo docker run hello-world
 ```
 
+## run without sudo
+- 添加当前用户到docker组
+```bash
+$ sudo groupadd docker
+$ sudo gpasswd -a ${USER} docker
+$ sudo service docker restart
+```
+
+- 注销当前用户，重新登陆
+
 
