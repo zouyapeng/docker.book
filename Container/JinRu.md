@@ -15,7 +15,7 @@ hello world
 ```
 
 ## docker exec
-docker attach会
+docker attach会进入进入容器并继续执行CMD
 ```bash
 $ docker 
 ```
