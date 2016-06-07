@@ -8,7 +8,8 @@
 - 从地址池配置一个ip地址给容器
 - 执行用户指定的应用程序
 - 执行完毕后容器被终止
-- 
+
+
 ## hello world
 ```bash
 $ docker run hello-world
