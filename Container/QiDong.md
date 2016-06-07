@@ -30,6 +30,6 @@ docker start 57064404d74b
 
 ## 后台运行
 ```bash
-docker run -d ubuntu:14.04 /bin/sh -c "while true; do echo hello world; sleep 1; done"
+$ docker run -d ubuntu:14.04 /bin/sh -c "while true; do echo hello world; sleep 1; done"
 f25d00c5b49b7601259e6f873148a924185e15921f626e12340dbfb05304354d
 ```
