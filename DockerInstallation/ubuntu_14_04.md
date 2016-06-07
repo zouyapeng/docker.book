@@ -44,6 +44,9 @@ $ sudo service docker start
 $ sudo docker run hello-world
 ```
 
+## run with non-root
+
+
 
 
 
