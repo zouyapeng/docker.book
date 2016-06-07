@@ -2,9 +2,9 @@
 
 * [介绍](README.md)
 * [Docker基本概念](DockerBase/README.md)
-   * [Docker镜像](Docker基本概念/JingXiang.md)
-   * [Docker容器](Docker基本概念/RongQi.md)
-   * [Docker仓库](Docker基本概念/CangKu.md)
+   * [Docker镜像](DockerBase/JingXiang.md)
+   * [Docker容器](DockerBase/RongQi.md)
+   * [Docker仓库](DockerBase/CangKu.md)
 * [Docker安装](Docker安装/README.md)
    * [Ubuntu 16.04安装](Docker安装/ubuntu_16_04.md)
    * [Ubuntu 14.04安装](Docker安装/ubuntu_14_04.md)
