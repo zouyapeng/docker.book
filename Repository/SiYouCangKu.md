@@ -15,7 +15,7 @@ $ sudo apt-get install -y build-essential python-dev libevent-dev python-pip lib
 $ sudo pip install docker-registry
 
 - Centos
-
+$ sudo yum install -y python-devel libevent-devel python-pip gcc xz-devel
 
 ### 源码安装
 
