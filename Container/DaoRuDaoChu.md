@@ -9,5 +9,5 @@ $ docker export [container id or name] > export.tar
 ```bash
 $ cat export.tar | sudo docker import - export:v1.0
 
-$ docker import http://example.com/exampleimage.tgz example/imagerepo
+$ docker import [ url ] example/imagerepo
 ```
