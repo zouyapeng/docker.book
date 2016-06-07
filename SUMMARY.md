@@ -15,7 +15,6 @@
    * [创建](Image/ChuangJian.md)
    * [导出导入](Image/DaoChuDaoRu.md)
    * [移除](Image/YiChu.md)
-   * [实现原理](Image/ShiXianYuanLi.md)
 * [容器](Container/README.md)
    * [启动](Container/QiDong.md)
    * [终止](Container/ZhongZhi.md)
