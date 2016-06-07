@@ -51,6 +51,7 @@ $ sudo groupadd docker
 $ sudo gpasswd -a ${USER} docker
 $ sudo service docker restart
 ```
+
 - 注销当前用户，重新登陆
 
 
