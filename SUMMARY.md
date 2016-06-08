@@ -23,7 +23,6 @@
    * [删除](Container/ShanChu.md)
 * [仓库](Repository/README.md)
    * [私有仓库](Repository/SiYouCangKu.md)
-   * [仓库配置](Repository/CangKuPeiZhi.md)
 * [数据管理](DataManagement/README.md)
    * [数据卷](DataManagement/ShuJuJuan.md)
    * [数据卷容器](DataManagement/ShuJuJuanRongQi.md)
