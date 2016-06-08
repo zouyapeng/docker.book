@@ -22,6 +22,4 @@ $ sudo yum install -y python-devel libevent-devel python-pip gcc xz-devel
 $ sudo python-pip install docker-registry
 ```
 
-## 上传
-## 下载
-## 搜索
+## 其他更多查考我的wiki
