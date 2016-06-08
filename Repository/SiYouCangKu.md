@@ -23,3 +23,4 @@ $ sudo python-pip install docker-registry
 ```
 
 ## 其他更多查考我的wiki
+[Docker私有仓库搭建(nginx代理)](http://wiki.zouyapeng.com/doku.php?id=docker%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E6%90%AD%E5%BB%BA_nginx%E4%BB%A3%E7%90%86)
