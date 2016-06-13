@@ -5,7 +5,7 @@
 使用 ```docker ps``` 可以看到，本地主机的 49155 被映射到了容器的 5000 端口。此时访问本机的 49155 端口即可访问容器内 web 应用提供的界面。
 ```bash
 $ docker run -d -P training/webapp python app.py
-$ sudo docker ps -l
+$ docker ps -l
 ```
 同样的，可以通过 ```docker logs``` 命令来查看应用的信息。
 ```bash
