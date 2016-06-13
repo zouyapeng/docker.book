@@ -44,7 +44,9 @@ $ docker run -d --name db training/postgres
 $ docker rm -f web
 ```
 然后创建一个新的 web 容器，并将它连接到 db 容器
-$ sudo docker run -d -P --name web --link db:db training/webapp python app.py
+```bash
+$ docker run -d -P --name web --link db:db training/webapp python app.py
+```
 此时，db 容器和 web 容器建立互联关系。
 --link 参数的格式为 --link name:alias，其中 name 是要链接的容器的名称，alias 是这个连接的别名。
 使用 docker ps 来查看容器的连接
