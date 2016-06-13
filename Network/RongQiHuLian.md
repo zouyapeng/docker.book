@@ -26,7 +26,7 @@ aed84ee21bde  training/webapp:latest python app.py  12 hours ago  Up 2 seconds 0
 
 也可以使用 ```docker inspect``` 来查看容器的名字
 ```bash
-$ sudo docker inspect -f "{{ .Name }}" aed84ee21bde
+$ docker inspect -f "{{ .Name }}" aed84ee21bde
 /web
 ```
 注意：容器的名称是唯一的。如果已经命名了一个叫 web 的容器，当你要再次使用 web 这个名称的时候，需要先用```docker rm``` 来删除之前创建的同名容器。+
@@ -37,7 +37,7 @@ $ sudo docker inspect -f "{{ .Name }}" aed84ee21bde
 使用 ```--link``` 参数可以让容器之间安全的进行交互。
 下面先创建一个新的数据库容器。
 ```bash
-$ sudo docker run -d --name db training/postgres
+$ docker run -d --name db training/postgres
 ```
 删除之前创建的 web 容器
 $ docker rm -f web
