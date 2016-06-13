@@ -17,19 +17,19 @@
 $ sudo docker run -d -P --name web training/webapp python app.py
 ```
 
-使用 docker ps 来验证设定的命名。
+使用 ```docker ps``` 来验证设定的命名。
 ```bash
 $ sudo docker ps -l
 CONTAINER ID  IMAGE                  COMMAND        CREATED       STATUS       PORTS                    NAMES
 aed84ee21bde  training/webapp:latest python app.py  12 hours ago  Up 2 seconds 0.0.0.0:49154->5000/tcp  web
 ```
 
-也可以使用 docker inspect 来查看容器的名字
+也可以使用 ```docker inspect``` 来查看容器的名字
 ```bash
 $ sudo docker inspect -f "{{ .Name }}" aed84ee21bde
 /web
 ```
-注意：容器的名称是唯一的。如果已经命名了一个叫 web 的容器，当你要再次使用 web 这个名称的时候，需要先用docker rm 来删除之前创建的同名容器。+
+注意：容器的名称是唯一的。如果已经命名了一个叫 web 的容器，当你要再次使用 web 这个名称的时候，需要先用```docker rm``` 来删除之前创建的同名容器。+
 
 在执行 ```docker run``` 的时候如果添加 --rm 标记，则容器在终止后会立刻删除。注意，--rm 和 -d 参数不能同时使用。
 ## 容器互联
