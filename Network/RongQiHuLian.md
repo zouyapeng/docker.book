@@ -40,7 +40,9 @@ $ docker inspect -f "{{ .Name }}" aed84ee21bde
 $ docker run -d --name db training/postgres
 ```
 删除之前创建的 web 容器
+```bash
 $ docker rm -f web
+```
 然后创建一个新的 web 容器，并将它连接到 db 容器
 $ sudo docker run -d -P --name web --link db:db training/webapp python app.py
 此时，db 容器和 web 容器建立互联关系。
