@@ -14,12 +14,12 @@
 - 当要连接其他容器时候，可以作为一个有用的参考点，比如连接web容器到db容器
 使用 --name 标记可以为容器自定义命名。
 ```bash
-$ sudo docker run -d -P --name web training/webapp python app.py
+$ docker run -d -P --name web training/webapp python app.py
 ```
 
 使用 ```docker ps``` 来验证设定的命名。
 ```bash
-$ sudo docker ps -l
+$ docker ps -l
 CONTAINER ID  IMAGE                  COMMAND        CREATED       STATUS       PORTS                    NAMES
 aed84ee21bde  training/webapp:latest python app.py  12 hours ago  Up 2 seconds 0.0.0.0:49154->5000/tcp  web
 ```
