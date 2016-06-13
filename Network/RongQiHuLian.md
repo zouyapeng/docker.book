@@ -36,7 +36,9 @@ $ sudo docker inspect -f "{{ .Name }}" aed84ee21bde
 
 使用 ```--link``` 参数可以让容器之间安全的进行交互。
 下面先创建一个新的数据库容器。
+```bash
 $ sudo docker run -d --name db training/postgres
+```
 删除之前创建的 web 容器
 $ docker rm -f web
 然后创建一个新的 web 容器，并将它连接到 db 容器
