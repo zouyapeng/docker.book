@@ -19,5 +19,8 @@ $ sudo docker run -d -P --name web training/webapp python app.py
 
 使用 docker ps 来验证设定的命名。
 ```bash
+$ sudo docker ps -l
+CONTAINER ID  IMAGE                  COMMAND        CREATED       STATUS       PORTS                    NAMES
+aed84ee21bde  training/webapp:latest python app.py  12 hours ago  Up 2 seconds 0.0.0.0:49154->5000/tcp  web
 ```
 ## 容器互联
