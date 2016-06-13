@@ -79,7 +79,7 @@ DB_PORT_5000_TCP_ADDR=172.17.0.5
 其中 DB_ 开头的环境变量是供 web 容器连接 db 容器使用，前缀采用大写的连接别名。
 除了环境变量，Docker 还添加 host 信息到父容器的 /etc/hosts 的文件。下面是父容器 web 的 hosts 文件
 ```bash
-$ sudo docker run -t -i --rm --link db:db training/webapp /bin/bash
+$ docker run -t -i --rm --link db:db training/webapp /bin/bash
 root@aed84ee21bde:/opt/webapp# cat /etc/hosts
 172.17.0.7  aed84ee21bde
 . . .
