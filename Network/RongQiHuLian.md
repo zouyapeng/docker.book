@@ -86,11 +86,13 @@ root@aed84ee21bde:/opt/webapp# cat /etc/hosts
 172.17.0.5  db
 ```
 这里有 2 个 hosts，第一个是 web 容器，web 容器用 id 作为他的主机名，第二个是 db 容器的 ip 和主机名。 可以在 web 容器中安装 ping 命令来测试跟db容器的连通。
+```bash
 root@aed84ee21bde:/opt/webapp# apt-get install -yqq inetutils-ping
 root@aed84ee21bde:/opt/webapp# ping db
 PING db (172.17.0.5): 48 data bytes
 56 bytes from 172.17.0.5: icmp_seq=0 ttl=64 time=0.267 ms
 56 bytes from 172.17.0.5: icmp_seq=1 ttl=64 time=0.250 ms
 56 bytes from 172.17.0.5: icmp_seq=2 ttl=64 time=0.256 ms
+```
 用 ping 来测试db容器，它会解析成 172.17.0.5。 *注意：官方的 ubuntu 镜像默认没有安装 ping，需要自行安装。
 用户可以链接多个父容器到子容器，比如可以链接多个 web 到 db 容器上。
