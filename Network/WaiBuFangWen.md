@@ -17,14 +17,14 @@ $ sudo docker logs -f nostalgic_morse
 -p（小写的）则可以指定要映射的端口，并且，在一个指定端口上只可以绑定一个容器。支持的格式有 ```ip:hostPort:containerPort | ip::containerPort | hostPort:containerPort```。
 ## 映射所有接口地址
 
-使用 hostPort:containerPort 格式本地的 5000 端口映射到容器的 5000 端口，可以执行
+使用 ```hostPort:containerPort``` 格式本地的 5000 端口映射到容器的 5000 端口，可以执行
 ```bash
 $ sudo docker run -d -p 5000:5000 training/webapp python app.py
 ```
 此时默认会绑定本地所有接口上的所有地址。
 ## 映射到指定地址的指定端口
 
-可以使用 ip:hostPort:containerPort 格式指定映射使用一个特定地址，比如 localhost 地址 127.0.0.1
+可以使用 ```ip:hostPort:containerPort``` 格式指定映射使用一个特定地址，比如 localhost 地址 127.0.0.1
 ```bash
 $ sudo docker run -d -p 127.0.0.1:5000:5000 training/webapp python app.py
 ```
@@ -40,14 +40,14 @@ $ sudo docker run -d -p 127.0.0.1:5000:5000/udp training/webapp python app.py
 ```
 ## 查看映射端口配置
 
-使用 docker port 来查看当前映射的端口配置，也可以查看到绑定的地址
+使用 ```docker port``` 来查看当前映射的端口配置，也可以查看到绑定的地址
 ```bash
 $ docker port nostalgic_morse 5000
 127.0.0.1:49155.
 ```
 注意：
 
-容器有自己的内部网络和 ip 地址（使用 docker inspect 可以获取所有的变量，Docker 还可以有一个可变的网络配置。）
+容器有自己的内部网络和 ip 地址（使用 ```docker inspect``` 可以获取所有的变量，Docker 还可以有一个可变的网络配置。）
 -p 标记可以多次使用来绑定多个端口
 例如
 ```bash
