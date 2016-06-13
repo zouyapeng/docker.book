@@ -64,6 +64,7 @@ Docker 通过 2 种方式为容器公开连接信息：
 环境变量
 更新 /etc/hosts 文件
 使用 env 命令来查看 web 容器的环境变量
+```bash
 $ sudo docker run --rm --name web2 --link db:db training/webapp env
 . . .
 DB_NAME=/web2/db
@@ -73,6 +74,7 @@ DB_PORT_5000_TCP_PROTO=tcp
 DB_PORT_5000_TCP_PORT=5432
 DB_PORT_5000_TCP_ADDR=172.17.0.5
 . . .
+```
 其中 DB_ 开头的环境变量是供 web 容器连接 db 容器使用，前缀采用大写的连接别名。
 除了环境变量，Docker 还添加 host 信息到父容器的 /etc/hosts 的文件。下面是父容器 web 的 hosts 文件
 $ sudo docker run -t -i --rm --link db:db training/webapp /bin/bash
