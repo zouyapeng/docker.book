@@ -51,5 +51,5 @@ $ docker port nostalgic_morse 5000
 -p 标记可以多次使用来绑定多个端口
 例如
 ```bash
-$ sudo docker run -d -p 5000:5000  -p 3000:80 training/webapp python app.py
+$ docker run -d -p 5000:5000  -p 3000:80 training/webapp python app.py
 ```
