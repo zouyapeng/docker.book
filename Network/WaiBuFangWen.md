@@ -9,7 +9,7 @@ $ docker ps -l
 ```
 同样的，可以通过 ```docker logs``` 命令来查看应用的信息。
 ```bash
-$ sudo docker logs -f nostalgic_morse
+$ docker logs -f nostalgic_morse
 * Running on http://0.0.0.0:5000/
 10.0.2.2 - - [23/May/2014 20:16:31] "GET / HTTP/1.1" 200 -
 10.0.2.2 - - [23/May/2014 20:16:31] "GET /favicon.ico HTTP/1.1" 404 -
