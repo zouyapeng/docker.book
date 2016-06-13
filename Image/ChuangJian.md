@@ -30,7 +30,6 @@ $ touch run.sh
 run.sh:
 ```bash
 #!/bin/bash
-
 if [ $# == 1 ];then
     echo $1
 elif [ $# == 2 ];then
