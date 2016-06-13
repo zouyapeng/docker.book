@@ -48,12 +48,14 @@ $ docker rm -f web
 $ docker run -d -P --name web --link db:db training/webapp python app.py
 ```
 此时，db 容器和 web 容器建立互联关系。
---link 参数的格式为 --link name:alias，其中 name 是要链接的容器的名称，alias 是这个连接的别名。
-使用 docker ps 来查看容器的连接
+--link 参数的格式为 ```--link name:alias```，其中 name 是要链接的容器的名称，alias 是这个连接的别名。
+使用 ```docker ps``` 来查看容器的连接
+```bash
 $ docker ps
 CONTAINER ID  IMAGE                     COMMAND               CREATED             STATUS             PORTS                    NAMES
 349169744e49  training/postgres:latest  su postgres -c '/usr  About a minute ago  Up About a minute  5432/tcp                 db, web/db
 aed84ee21bde  training/webapp:latest    python app.py         16 hours ago        Up 2 minutes       0.0.0.0:49154->5000/tcp  web
+```
 可以看到自定义命名的容器，db 和 web，db 容器的 names 列有 db 也有 web/db。这表示 web 容器链接到 db 容器，web 容器将被允许访问 db 容器的信息。
 Docker 在两个互联的容器之间创建了一个安全隧道，而且不用映射它们的端口到宿主主机上。在启动 db 容器的时候并没有使用 -p 和 -P 标记，从而避免了暴露数据库端口到外部网络上。
 Docker 通过 2 种方式为容器公开连接信息：
