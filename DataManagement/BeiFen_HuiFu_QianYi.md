@@ -15,10 +15,10 @@ $ docker run -v /dbdata --name dbdata2 ubuntu /bin/bash
 ```
 然后创建另一个容器，挂载 dbdata2 容器卷中的数据卷，并使用 untar 解压备份文件到挂载的容器卷中。
 ```bash
-$ sudo docker run --volumes-from dbdata2 -v $(pwd):/backup busybox tar xvf
+$ docker run --volumes-from dbdata2 -v $(pwd):/backup busybox tar xvf
 /backup/backup.tar
 ```
 为了查看/验证恢复的数据，可以再启动一个容器挂载同样的容器卷来查看
 ```bash
-$ sudo docker run --volumes-from dbdata2 busybox /bin/ls /dbdata
+$ docker run --volumes-from dbdata2 busybox /bin/ls /dbdata
 ```
