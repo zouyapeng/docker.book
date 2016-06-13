@@ -33,3 +33,4 @@ $ sudo docker inspect -f "{{ .Name }}" aed84ee21bde
 
 在执行 ```docker run``` 的时候如果添加 --rm 标记，则容器在终止后会立刻删除。注意，--rm 和 -d 参数不能同时使用。
 ## 容器互联
+
