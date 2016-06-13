@@ -18,4 +18,6 @@ $ sudo docker run -d -P --name web training/webapp python app.py
 ```
 
 使用 docker ps 来验证设定的命名。
+```bash
+```
 ## 容器互联
